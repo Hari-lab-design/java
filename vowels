@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        String a="hARI";
+        String b=a.toLowerCase();
+        String r=new String("");
+        int len=a.length();
+        for(int i=0;i<len;i++){
+            if(b.charAt(i)!='a'&&b.charAt(i)!='e'&&b.charAt(i)!='i'&&b.charAt(i)!='o'&&b.charAt(i)!='u'){
+                System.out.print(b.charAt(i));
+            }
+        }
+    }
+}
